@@ -516,7 +516,7 @@ else
 	echo "No MySQL has been installed"
 fi
 #get Package
-echo "*****Start getting package from ftp..."$'\n'
+echo "*****Start getting package..."$'\n'
 mkdir -p $temppath
 cd $temppath
 wget -c "${path}${packagename}" >/dev/null
